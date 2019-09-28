@@ -20,3 +20,5 @@ pushd $BUILDPACK_DIR
 popd
 
 $output_dir/supply "$BUILD_DIR" "$CACHE_DIR" "$DEPS_DIR" "$DEPS_IDX"
+
+echo "----> Run some special stuff HERE!!!!!!"
